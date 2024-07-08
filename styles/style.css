@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    background-color: #1e172f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-logo{
+    position: relative;
+    left: 20rem;
+    
+}
+
+.nav-anclas{
+    display: flex;
+    position: absolute;
+    left: 65rem;
+    top: 0.9rem;
+    margin-top: 10px;
+    width: 30rem;
+    color: #fff;
+    justify-content: space-between;
+    
+}
+
+
+
+.ancla{
+    color: #fff;
+}
+
+
+.btn-download{
+    position: relative;
+    bottom: 12px;
+    height: 3rem;
+    width: 7rem;
+    background-image: linear-gradient(45deg, #aa21d7, #36a2eb);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
