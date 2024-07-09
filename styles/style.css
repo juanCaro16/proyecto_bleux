@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: sans-serif;
 }
 
 
 header {
     background-color: #1e172f;
+    height: 4.2rem;
+    
 }
 
 a {
@@ -15,7 +17,7 @@ a {
 
 .img-logo{
     position: relative;
-    left: 20rem;
+    left: 18rem;
     
 }
 
@@ -32,9 +34,14 @@ a {
 }
 
 
+a:hover{
+    color: white;
+}
+
+
 
 .ancla{
-    color: #fff;
+    color: #ffffff7b;
 }
 
 
@@ -50,4 +57,123 @@ a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    color: #fff;
+    width: 17rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    position: relative;
+    left: 23rem;
+    top: 10rem;
+}
+
+.text2{
+    position: relative;
+    font-size: 1.4rem;
+    left: 23rem;
+    top: 3rem;
+    width: 32rem;
+    color: #fff;
+}
+
+.buttons{
+    position: relative;
+    height: 8rem;
+    width: 21rem;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 2px solid;
+    border-color: #80808095;
+    border-radius: 5px;
+    left: 23rem;
+    bottom: 10rem;
+
+
+}
+
+.btn-download2{
+    color: #EF268D;
+    background-color: #fff;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 9.6rem;
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+}
+
+.btn-features{
+    color: #fff;
+    background-color: transparent;
+    border: 2.5px solid;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 9.6rem;
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+}
+
+
+/* .chulito{
+    color: #EF268D;
+    width: 19px;
+    height: 21px;
+    margin-left: 40px;
+    font-size: 14px;
+    border: 2px solid;
+    padding-left: 6px;
+    border-radius: 50%;
+    border-color: #EF268D;
+} */
+
+
+
+
+
+
+
+.product-page{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2550;
+    height: 90vh;
+    width: 50%;
+}
+
+.cellphone{
+
+    background-image: url(../assets/images/hojasFondo.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    
+}
+
+.fondo{
+    color: transparent;
+    background-color: #2421307b;
+    background-size: 100%;
+}
+
+p {
+    height: 100%;
+}
+
+.phone{
+    height: 30rem;
+    position: relative;
+    bottom: 38rem;
+    left: 8rem;
 }
