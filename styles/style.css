@@ -17,7 +17,7 @@ a {
 
 .img-logo{
     position: relative;
-    left: 18rem;
+    left: 21rem;
     
 }
 
@@ -71,14 +71,14 @@ a:hover{
     font-size: 5rem;
     font-weight: bolder;
     position: relative;
-    left: 23rem;
-    top: 10rem;
+    left: 21rem;
+    top: 4rem;
 }
 
 .text2{
     position: relative;
     font-size: 1.4rem;
-    left: 23rem;
+    left: 21rem;
     top: 3rem;
     width: 32rem;
     color: #fff;
@@ -93,7 +93,7 @@ a:hover{
     border: 2px solid;
     border-color: #80808095;
     border-radius: 5px;
-    left: 23rem;
+    left: 21rem;
     bottom: 10rem;
 
 
@@ -103,6 +103,7 @@ a:hover{
     color: #EF268D;
     background-color: #fff;
     border: none;
+    font-size: 15px;
     font-weight: bolder;
     border-radius: 5px;
     width: 9.6rem;
@@ -114,6 +115,8 @@ a:hover{
 
 .btn-features{
     color: #fff;
+    font-size: 15px;
+    font-weight: lighter;
     background-color: transparent;
     border: 2.5px solid;
     border-color: #fff;
@@ -122,8 +125,88 @@ a:hover{
     height: 3rem;
     cursor: pointer;
     position: relative;
+    bottom: 1px;
     left: 15px;
 }
+
+.features{
+    position: relative;
+    top: 6rem;
+}
+
+.img-laptop{
+    position: absolute;
+    top: 63.5rem;
+    left: 20rem;
+    width: 500px;
+    height: 280px;
+}
+
+
+.title-sec2{
+    color: #EF268D;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 3rem;
+    
+}
+
+.subtitle-sec2{
+    color: #C1548C;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    position: relative;
+    left: 62rem;
+    width: 20rem;
+}
+
+.p-sec2{
+    color: #87878A;
+    position: relative;
+    top: 2rem;
+    left: 62rem;
+    width: 20rem;
+}
+
+.title-Li{
+    color: #C1548C;
+    font-size: 1.5rem;
+    position: relative;
+    width: 15rem;
+    left: 62rem;
+    top: 3rem;
+    list-style: none;
+}
+
+.spanSec2{
+    color: #EF268D;
+    width: 30px;
+    height: 21px;
+    margin-left: 40px;
+    font-size: 14px;
+    border: 1.8px solid;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 50%;
+    border-color: #EF268D;
+    position: relative;
+    right: 10px;
+}
+
+.chulito{
+    color: #87878A  ;
+    padding-left: 10px;
+    list-style: none;
+    position: relative;
+    left: 59.7rem;
+    width: 20rem;
+    top: 4rem;
+}
+
+
+
 
 
 /* .chulito{
