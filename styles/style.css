@@ -72,29 +72,29 @@ a:hover{
     font-weight: bolder;
     position: relative;
     left: 21rem;
-    top: 4rem;
+    top: 12rem;
 }
 
 .text2{
     position: relative;
     font-size: 1.4rem;
     left: 21rem;
-    top: 3rem;
+    top: 15rem;
     width: 32rem;
     color: #fff;
 }
 
 .buttons{
     position: relative;
-    height: 8rem;
-    width: 21rem;
+    height: 3.3rem;
+    width: 20.7rem;
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: px;
     border: 2px solid;
     border-color: #80808095;
     border-radius: 5px;
     left: 21rem;
-    bottom: 10rem;
+    top: 18rem;
 
 
 }
@@ -111,6 +111,7 @@ a:hover{
     cursor: pointer;
     position: relative;
     left: 5px;
+    bottom: 0.3rem;
 }
 
 .btn-features{
@@ -125,7 +126,7 @@ a:hover{
     height: 3rem;
     cursor: pointer;
     position: relative;
-    bottom: 1px;
+    bottom: 5px     ;
     left: 15px;
 }
 
@@ -136,7 +137,7 @@ a:hover{
 
 .img-laptop{
     position: absolute;
-    top: 63.5rem;
+    top: 62rem;
     left: 20rem;
     width: 500px;
     height: 280px;
@@ -248,15 +249,162 @@ a:hover{
     color: transparent;
     background-color: #2421307b;
     background-size: 100%;
+    height: 100%;    
 }
 
-p {
-    height: 100%;
-}
 
 .phone{
     height: 30rem;
     position: relative;
     bottom: 38rem;
     left: 8rem;
+}
+
+.third-section{
+    
+    margin-top: 15rem;
+    height: 120vh;
+    width: 100%;
+    flex-direction: row;
+    background-color: #1E172F;
+}   
+
+.title-sec3{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+
+.text3{
+    color: #ffffff7b;
+    width: 100%;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.free{
+    background-color: #fff;
+    margin-left: 40px;
+    border: 1px solid;
+    border-radius: 3%;
+    width: 21rem;
+    height: 630px;
+}
+
+.img-hoja{
+    position: relative;
+    top: 1rem;
+    left: 7.6rem;
+}
+
+.textFree{
+    color: #EF268D;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: 1rem;
+    
+}
+
+.text-span{
+    text-align: center;
+    background-color: #80808027;
+    position: relative;
+    top: 2rem;
+}
+
+.zeroFree{
+    font-size: 50px;
+}
+
+.freeSpan{
+    font-weight: lighter;
+    position: relative;
+    bottom: 1.3rem;
+    font-size: 15px;
+}
+
+.moneySymbol{
+    font-size: 38px;
+    position: relative;
+    bottom: 4px;
+    font-weight: lighter;
+}
+
+.symbols{
+    color: #EF268D;
+    font-weight: bolder;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 12rem;
+    position: relative;
+    right: 1.5rem;
+    top: 3.1rem;
+}
+
+.symbols-X{
+        color: #000000;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        margin-right: 12rem;
+        position: relative;
+        right: 1.5rem;
+        top: 3.5rem;
+}
+
+.text-Li{
+    list-style: none;
+    line-height: 27px;
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left: 5.3rem;
+    bottom: 4.8rem;
+}
+
+.lastParagraph{
+    text-align: center;
+    width: 60%;
+    margin-left: 55px ;    
+}
+
+.btn-subscribe{
+        background: linear-gradient(310deg, rgba(239,38,141,1) 35%, rgba(250,112,183,1) 100%);
+        color: #FFFFFF;
+        width: 11rem;
+        height: 3rem;
+        font-size: 17px;
+        border-radius: 5%;
+        border: none;
+        margin-top: 55px;
+        margin-left: 70px;
+        position: relative;
+        top: 6px;
+}
+
+.background-btn{
+    background-color: #80808027 ;
+    width: 99.9%;
+    height: 69.8px;
+    border-radius: 3%;
+    position: relative;
+    bottom: 55px;
+}
+
+
+.standard{
+    background-color: #fff;
+    margin-left: 40px;
+    border: 1px solid;
+    border-radius: 3%;
+    width: 21rem;
+    height: 630px;
 }
