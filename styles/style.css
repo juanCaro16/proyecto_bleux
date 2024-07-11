@@ -137,7 +137,7 @@ a:hover{
 
 .img-laptop{
     position: absolute;
-    top: 62rem;
+    top: 65rem;
     left: 20rem;
     width: 500px;
     height: 280px;
@@ -261,18 +261,35 @@ a:hover{
 }
 
 .third-section{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     margin-top: 15rem;
     height: 120vh;
     width: 100%;
-    flex-direction: row;
     background-color: #1E172F;
 }   
+
+/* 
+.third-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+  
+  /* .free, .standard {
+    flex: 1;
+    margin: 20px;
+  } */
+
+  
 
 .title-sec3{
     color: white;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-top: 3rem;
     font-size: 65px;
     margin-bottom: 50px;
@@ -281,9 +298,15 @@ a:hover{
 .text3{
     color: #ffffff7b;
     width: 100%;
-    margin-left: 500px;
-    margin-bottom: 60px;
+    margin-left: 29%;
+    margin-right: 29%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
     text-align: center;
+    
+    margin-bottom: 60px;
+  
 }
 
 
@@ -291,7 +314,7 @@ a:hover{
     background-color: #fff;
     margin-left: 40px;
     border: 1px solid;
-    border-radius: 3%;
+    border-radius: 1%;
     width: 21rem;
     height: 630px;
 }
@@ -305,6 +328,7 @@ a:hover{
 .textFree{
     color: #EF268D;
     text-align: center;
+    font-size: 25px;
     font-weight: bolder;
     position: relative;
     top: 1rem;
@@ -345,7 +369,7 @@ a:hover{
     justify-content: center;
     margin-right: 12rem;
     position: relative;
-    right: 1.5rem;
+    right: 3rem;
     top: 3.1rem;
 }
 
@@ -356,7 +380,7 @@ a:hover{
         justify-content: center;
         margin-right: 12rem;
         position: relative;
-        right: 1.5rem;
+        right: 3rem;
         top: 3.5rem;
 }
 
@@ -372,7 +396,7 @@ a:hover{
 
 .lastParagraph{
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin-left: 55px ;    
 }
 
@@ -393,7 +417,7 @@ a:hover{
 .background-btn{
     background-color: #80808027 ;
     width: 99.9%;
-    height: 69.8px;
+    height: 77px;
     border-radius: 3%;
     position: relative;
     bottom: 55px;
@@ -404,7 +428,133 @@ a:hover{
     background-color: #fff;
     margin-left: 40px;
     border: 1px solid;
-    border-radius: 3%;
+    border-radius: 1%;
+    width: 21rem;
+    height: 630px;
+    
+}
+
+
+.textStandard{
+    color: #263247;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 1rem;
+    
+}
+
+
+.symbolsStandard{
+    color: #263247;
+    font-weight: bolder;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 12rem;
+    position: relative;
+    right: 3rem;
+    top: 3.1rem;
+}
+
+.symbolsStandard-X{
+        color: #263247;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        margin-right: 12rem;
+        position: relative;
+        right: 3rem;
+        top: 3.5rem;
+}
+
+.btn-subscribeStandard{
+background-color: #2E2550;
+color: #FFFFFF;
+width: 11rem;
+height: 3rem;
+font-size: 17px;
+border-radius: 5%;
+border: none;
+margin-top: 55px;
+margin-left: 70px;
+position: relative;
+top: 6px;
+
+
+    
+}
+
+.ultimate{
+    background-color: #fff;
+    margin-left: 40px;
+    border: 1px solid;
+    border-radius: 1%;
     width: 21rem;
     height: 630px;
 }
+
+.textUltimate{
+    color: #263247;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 1rem;
+}
+
+.symbolsUltimate{
+    color: #263247;
+    font-weight: bolder;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 12rem;
+    position: relative;
+    right: 3rem;
+    top: 3.1rem;
+}
+
+.symbolsUltimate-X{
+        color: #263247;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        margin-right: 12rem;
+        position: relative;
+        right: 3rem;
+        top: 3.5rem;
+}
+
+
+.UltimateSpan{
+    font-weight: lighter;
+    position: relative;
+    bottom: 1.3rem;
+    font-size: 15px;
+}
+
+.spanYear{
+    position: relative;
+    top: 1rem;
+    right: 3.6rem;
+}
+
+.btn-subscribeUltimate{
+    background-color: #2E2550;
+    color: #FFFFFF;
+    width: 11rem;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 5%;
+    border: none;
+    margin-top: 55px;
+    margin-left: 70px;
+    position: relative;
+    top: 6px;
+
+}
+
