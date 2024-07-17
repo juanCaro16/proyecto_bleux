@@ -794,6 +794,16 @@ a:hover {
         width: 22rem;
         top: 4rem;
     }
+    .chulitoultimo{
+        color: #87878A;
+        padding-left: 10px;
+        font-size: 20px;
+        list-style: none;
+        position: relative;
+        left: 55rem;
+        width: 21rem;
+        top: 4rem;
+    }
 
     .img-laptop {
         position: absolute;
@@ -1315,7 +1325,7 @@ a:hover {
         font-weight: lighter;
         position: relative;
         left: 38rem;
-        width: 20rem;
+        width: 18rem;
     }
 
     .p-sec2 {
@@ -1361,6 +1371,17 @@ a:hover {
         position: relative;
         left: 36rem;
         width: 20rem;
+        top: 4rem;
+    }
+
+    .chulitoultimo{
+        color: #87878A;
+        padding-left: 10px;
+        font-size: 20px;
+        list-style: none;
+        position: relative;
+        left: 36rem;
+        width: 19.5rem;
         top: 4rem;
     }
 
@@ -1666,7 +1687,7 @@ a:hover {
         font-weight: lighter;
         position: relative;
         left: 32rem;
-        width: 20rem;
+        width: 14rem;
     }
 
     .p-sec2 {
@@ -1682,7 +1703,7 @@ a:hover {
         color: #C1548C;
         font-size: 25px;
         position: relative;
-        width: 15rem;
+        width: 13rem;
         left: 30rem;
         top: 3rem;
         list-style: none;
@@ -1710,9 +1731,21 @@ a:hover {
         list-style: none;
         position: relative;
         left: 28rem;
-        width: 20rem;
+        width: 14rem;
         top: 4rem;
     }
+
+    .chulitoultimo{
+        color: #87878A;
+        padding-left: 10px;
+        font-size: 17px;
+        list-style: none;
+        position: relative;
+        left: 28rem;
+        width: 18.5rem;
+        top: 4rem;
+    }
+
 
     .img-laptop {
         position: absolute;
@@ -2006,7 +2039,7 @@ a:hover {
         font-weight: lighter;
         position: relative;
         left: 19rem;
-        width: 20rem;
+        width: 10rem;
     }
 
     .p-sec2 {
@@ -2025,6 +2058,7 @@ a:hover {
         width: 15rem;
         left: 19rem;
         top: 3rem;
+        width: 5rem;
         list-style: none;
     }
 
@@ -2046,11 +2080,21 @@ a:hover {
     .chulito {
         color: #87878A;
         padding-left: 10px;
-        font-size: 14px;
+        font-size: 12px;
         list-style: none;
         position: relative;
-        left: 17rem;
-        width: 20rem;
+        left: 16rem;
+        width: 11.5rem;
+        top: 4rem;
+    }
+    .chulitoultimo{
+        color: #87878A;
+        padding-left: 10px;
+        font-size: 12px;
+        list-style: none;
+        position: relative;
+        left: 16rem;
+        width: 13rem;
         top: 4rem;
     }
 
