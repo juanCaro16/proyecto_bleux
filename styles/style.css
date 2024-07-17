@@ -137,7 +137,7 @@ a:hover {
 
 .img-laptop {
     position: absolute;
-    top: 63rem;
+    top: 65.5rem;
     left: 20rem;
     width: 500px;
     height: 280px;
@@ -2056,7 +2056,7 @@ a:hover {
 
     .img-laptop {
         position: absolute;
-        top: 55rem;
+        top: 60rem;
         left: 0rem;
         width: 18rem;
         height: 13rem;
@@ -2081,18 +2081,17 @@ a:hover {
         font-size: 18px;
         justify-content: center;
         text-align: center;
-
+        position: relative;
+        bottom: 1rem;
         margin-bottom: 60px;
 
     }
 
     .third-section {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        flex-direction: row;
         margin-top: 15rem;
-        height: 360vh;
+        height: 320vh;
         width: 100%;
         background-color: #1E172F;
     }
@@ -2104,8 +2103,10 @@ a:hover {
         border-radius: 1%;
         width: 21rem;
         height: 630px;
-    }
-
+        position: relative;
+        top: 5rem;
+        right: 1rem;
+        }
     .img-hoja {
         position: relative;
         top: 1rem;
@@ -2132,6 +2133,33 @@ a:hover {
     .zeroFree {
         font-size: 50px;
     }
+
+
+    .standard {
+        background-color: #fff;
+        margin-left: 40px;
+        border: 1px solid;
+        border-radius: 1%;
+        width: 21rem;
+        height: 630px;
+        position: relative;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .ultimate {
+        background-color: #fff;
+        margin-left: 40px;
+        border: 1px solid;
+        border-radius: 1%;
+        width: 21rem;
+        height: 630px;
+        position: relative;
+        top: 6rem;
+        right: 1rem;
+    }
+
+
 
     .textFooter {
         color: #505050aa;
